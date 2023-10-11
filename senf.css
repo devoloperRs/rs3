@@ -1,0 +1,158 @@
+#senf{
+	padding:90px 0px;
+	background: #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	position:relative;
+	z-index: -98;
+}
+
+/*-----------senf chi---------------*/
+#senf .senf-chi{
+	width: 90%;
+	height: 100px;
+	text-align: right;
+}
+#senf .senf-chi h1{
+	color: #f06d02;
+	font-size: 60px;
+	text-align: right;
+	font-family: farsi;
+	letter-spacing: 7px;
+	text-shadow: 0 0 30px black;
+	background: #35383b;
+	border-width: 0px 20px 0px 0px;
+	border-color: #f06d02;
+	border-style: solid;
+	padding-right: 30px;
+	border-radius: 20px 0px 0px 20px ;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/*---------------info senf-----------------*/
+#senf .info-senf{
+	width: 100%;
+	text-align: right;
+	
+	padding: 60px;
+}
+#senf .info-senf p{
+	font-size: 40px;
+	color: #35383b;
+	font-family: farsi-pragraf;
+}
+
+/*-------------card senf--------------*/
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+     
+      
+      font-size: 14px;
+      
+      margin: 0;
+      padding: 0;
+    }
+
+.continer-card{
+	width: 100%;
+	height: 1200px;
+	
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+	top: 50px;
+}
+
+.swiper-slide {
+ background:#35383b;
+  width: 700px;
+  height: 1000px;
+	padding: 30px;
+	border-radius: 50px ;
+	border: 15px solid #f06d02;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.swiper-slide  h1{
+	text-align: center;
+	font-size: 120px;
+	color: #fff;
+}
+
+/*---------------senf card design--------------*/
+
+/*-----top-----*/
+.swiper-slide .top{
+	width: 100%;
+	height: 300px;
+/*	background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-slide .top h1{
+	font-size: 190px;
+	color: #f06d02;
+	text-shadow: 0 0 20px #000;
+	font-family: 'Black Ops One', cursive;
+}
+.swiper-slide .top {
+	font-size: 190px;
+	color: #f06d02;
+	text-shadow: 0 0 20px #000;
+	font-family: 'Black Ops One', cursive;
+}
+
+
+
+
+
+/*-----bottom-----*/
+
+.swiper-slide .bottom{
+	width: 100%;
+	height: 600px;
+	
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.swiper-slide .bottom h1{
+	text-align: right;
+	font-family: farsi;
+	font-size:60px;
+	padding: 0px 20px;
+	
+	border: solid #f06d02;
+	border-width: 0 30px 0 0;
+	border-radius: 20px 0px 0px 20px;
+	background:#fff;
+	color: #35383b;
+}
+.swiper-slide .bottom p{
+	font-size: 50px;
+	font-family: farsi-pragraf;
+	color: #fff;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+#about{
+	width: 100%;
+	
+	background: #fff;
+/*
+	0c0e14
+	0f1117
+*/
+	padding: 40px 40px 140px 40px ;
+	text-align: right;
+}
+#about .meten-about{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-direction: column;
+	margin-bottom: 100px;
+	
+}
+/*24282e*/
+#about .meten-about h1{
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	background: #35383b;
+	border-width: 0px 20px 0px 0px;
+	border-color: #f06d02;
+	border-style: solid;
+	border-radius: 20px 0px 0px 20px ;
+	padding-right: 30px;
+	width: 100%;
+	height: 80px;
+	font-size:60px;
+	font-family: farsi;
+	color:#f06d02;
+	letter-spacing: 7px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	text-shadow: 0 0 30px #000;
+}
+
+#about .meten-about p{
+	font-size: 50px;
+	font-family: farsi-pragraf;
+	color: #35383b;
+	font-weight:bold;
+	padding-top: 40px;
+}
+
+
+/*---------------TOP G-------------------------*/
+

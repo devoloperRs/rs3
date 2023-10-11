@@ -1,0 +1,108 @@
+/************blue or red****************************/
+
+#intekhab{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+/*
+	border-style: solid;
+	border-width: 3px 0px 0px;
+	border-color: #fff;
+*/
+}
+#intekhab h1{
+	font-size: 70px;
+	font-family: farsi;
+	color: rgba(255,255,255,0.8564);
+	color: #35383b;
+	letter-spacing: 5px;
+}
+
+#blue{
+	width: 100%;
+	height: 50vh;
+	background: rgba(0,0,0,.43331);
+	background-image: url(back2.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	
+	background-attachment: fixed;
+}
+
+/*pill*********************************************/
+#topg{
+	width: 100%;
+	
+	background: #fff;
+}
+
+#topg .continer-topg-andrew{
+	width: 100%;
+	padding: 30px 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+/*222, 0, 0*/
+#topg .continer-topg-andrew .top-g ,#topg .continer-topg-andrew .andrew{
+	padding: 10px 60px;
+	
+	background: #000;
+	border-radius: 70px;
+	background: #35383b;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	border: 10px solid #f06d02;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	animation: TopG 3s ease-in-out infinite;
+}  
+@keyframes TopG {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-1.8rem);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+#topg .continer-topg-andrew .top-g a,#topg .continer-topg-andrew .andrew a{
+	text-decoration: none;
+	color:#fff;
+	font-size: 30px;
+	font-family: 'Archivo Black', sans-serif;
+	text-shadow: 0 0 30px #000;
+}
+
+/*-----------information-blue-red---------------*/
+.information-blue-red{
+	z-index: -30;
+	width: 100%;
+/*	height: 700px;*/
+	
+	padding: 0px 0px 60px 0px;
+
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+ .information-blue-red h1{
+	color: #35383b;
+	
+	font-size: 3em;
+	text-align: center;
+	font-family: farsi-pragraf;
+	font-weight: bold;
+}
+

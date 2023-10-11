@@ -1,0 +1,273 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+/*font-family: 'Archivo Black', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/*font-family: 'Black Ops One', cursive;*/
+
+@font-face{
+	font-family:'farsi';
+	src:url(lale1.otf) format('truetype'), 
+		url(lale2.ttf) format('ttf');
+	
+}
+@font-face{
+	font-family:'farsi-pragraf';
+	src:url(Yekan.ttf) format('truetype');
+}
+
+body{
+	background: white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+#home{
+	width: 100%;
+/*	height: 100vh;*/
+	background-image: url(TopG.jpg);
+	background-position: top;;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+/*---------part top for logo and menu-------*/
+#home .top{
+	width: 100%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+#home .left-top{
+	
+	width: 50%;
+	height: 180px;
+	display: flex;
+	justify-content: flex-start;
+	
+	
+}
+/*------menu style ----------*/
+#home .left-top .menu-bar{
+	z-index: 22333;
+	height: 900px;
+	background: rgba(255,255,255,0.16666);
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	border: 4px solid #fff;
+	position: fixed;
+	border-radius: 40px;
+	top: -980px;
+	transition: all 1s ease;
+}
+#home .left-top .menu-bar ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 90px 20px 0px 20px ;
+}
+#home .left-top .menu-bar ul li{
+	background: rgba(31, 35, 48,.45556);
+	margin-top: 40px;
+	border: 4px solid #fff;
+	border-radius: 30px;
+	transition: ease 1s ;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#home .left-top .menu-bar ul li:hover{
+	transform: translateY(-20px);
+}
+
+#home .left-top .menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+#home .left-top .menu-bar ul li a ion-icon{
+	font-size: 60px;
+	padding: 10px;
+	
+}
+#home .left-top .menu-bar ion-icon{
+	font-size: 10px;
+}
+
+/* --------------side bar menu-------*/
+#home .left-top #check{
+	display: none;
+}
+#home .left-top label #check-open , label #close{
+	position: fixed;
+	cursor: pointer;
+}
+#home .left-top label #check-open{
+	left:40px;
+	color: #35383b;
+	top: 60px;
+	font-size: 120px;
+	transition: all 1s ease;
+	z-index: 33;
+}
+#home .left-top label #close{
+	z-index: 32333;
+	font-size: 60px;
+	left: 37px;
+	top: -900px;
+	color: #35383b;
+	transition: all ease 1s;
+}
+/*-------------transition of side bar--------------- */
+#home .left-top #check:checked ~ .menu-bar{
+	top: 30px;
+}
+#home .left-top #check:checked ~ label #check-open{
+	top: 900px;
+	opacity: 0;
+	pointer-events: none;
+}
+#home .left-top #check:checked ~ label #close{
+	top: 50px;
+}
+
+
+#home .right-top{
+	
+	width: 50%;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+
+/*----logo style------*/
+#home .right-top .logo{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	
+	
+}
+#home .right-top .logo img{
+	width: 100%;
+	
+}
+
+
+
+
+
+/*-------part asli for img-------*/
+
+#home .main{
+	width:100%;
+	
+/*	021c21*/
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 260px 30px 0 0 ;
+}
+
+
+/*------===========main design=============------------*/
+
+/*************design h1*********************/
+
+#home .main .cont-t1-h1{
+	height: 1400px;
+	position:relative;
+	top: 250px;
+	
+}
+#home .main .continer-h1{
+	
+	
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	animation: moneyDance 3s ease-in-out infinite;
+}  
+@keyframes moneyDance {
+	0% {
+		transform: translateY(0);
+	}
+
+	50% {
+		transform: translateY(-1.8rem);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+#home .main .king-img{
+	z-index: 3;
+	font-size: 140px;
+	font-family: farsi;
+	color: #f06d02;
+	height: 190px;
+}
+
+
+#home .main .t1{
+	width: 600px;
+	height:700px;
+	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+	border-radius: 0px 57px 0px 0px;
+	clip-path: polygon(100% 0, 0 0, 100% 100%);
+	background: rgba(255,255,255,0.142);
+	border: solid #fff;
+	border-width: 4px 4px 0px 0px;
+	display: flex;
+	justify-content: flex-end;
+	
+	 
+}
+#home .main .circle{
+	width: 240px;
+	height:240px;
+	
+	
+	position: absolute;
+	right: 90px;
+	top: 300px;
+	z-index: 222;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset , rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+	border: 2px solid rgba(255,255,255,0.9);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: right;
+	
+}
+#home .main .circle h1{
+	font-size: 56px;
+	font-family: farsi-pragraf;
+	color: #000;
+	
+	
+}
+
+
+
+
+
+
+
+
